@@ -52,3 +52,30 @@ h1 {
     margin: 0 auto;
     padding: 30px 70px;
 }
+
+
+.introduction h1 {
+    max-width: 12ch;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+  }
+  
+  .introduction p {
+    max-width: 48ch;
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+  
+  .introduction a {
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 7px;
+    background-color: #3882f6;
+    color: #f9faf8;
+  }
+  
+  .introduction a:hover{
+    background-color: #365f97;
+  }
+  
