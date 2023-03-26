@@ -1,10 +1,13 @@
+/*
+CSS RESET
+*/
 body,
 ul,
 li {
     margin: 0px;
     padding: 0px;
     list-style: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -21,7 +24,9 @@ h1 {
     margin: 0;
 }
 
-/*HEADER*/
+/*
+HEADER
+*/
 .header {
     display: flex;
     flex-wrap: wrap;
@@ -32,7 +37,6 @@ h1 {
     padding: 30px 70px;
     background: #1f2937;
 }
-
 
 .nav {
     display: flex;
@@ -46,37 +50,159 @@ h1 {
     color: #e5e7eb;
 }
 
-/*INTRODUCTION SUNSET*/
+/*
+INTRODUCTION
+*/
 .introduction {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
     background: #1f2937;
     max-width: 1300px;
     margin: 0 auto;
     padding: 30px 70px;
 }
 
-
 .introduction h1 {
     max-width: 12ch;
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
-  }
-  
-  .introduction p {
+}
+
+.introduction p {
     max-width: 48ch;
     font-size: 18px;
     color: #e5e7eb;
-  }
-  
-  .introduction a {
+}
+
+.introduction a {
     padding: 10px 30px;
     display: inline-block;
     border-radius: 7px;
     background-color: #3882f6;
     color: #f9faf8;
-  }
-  
-  .introduction a:hover{
+}
+
+.introduction a:hover {
     background-color: #365f97;
-  }
-  
+}
+
+/*
+INFORMATION
+*/
+.information {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 30px 70px;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.images-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.image-card img {
+    max-width: 170px;
+    height: auto;
+    border-radius: 10px;
+    border: #3882f6 solid 4px;
+}
+
+.image-card p {
+    max-width: 20ch;
+    color: #454d5a;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/*
+QUOTE
+*/
+.quote {
+    background: #e5e7eb;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 50px 70px;
+}
+
+.quote p {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.quote .autor {
+    display: inline-block;
+    display: flex;
+    justify-content: end;
+    color: #1f2937;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+/*
+SIGN UP
+*/
+.sign-up {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 50px 70px;
+}
+
+.sign-bg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3882f6;
+    padding: 20px 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.sign-bg h3 {
+    color: #f9faf8;
+}
+
+.sign-bg p {
+    color: #e5e7eb;
+}
+
+.sign-bg a {
+    display: block;
+    padding: 10px 40px;
+    border: #f9faf8 solid 2px;
+    border-radius: 8px;
+    color: #e5e7eb;
+    font-weight: 800;
+}
+
+/*
+FOOTER
+*/
+.footer-bg {
+    background-color: #454d5a;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px 50px;
+
+}
+
+.footer-bg p {
+    text-align: center;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 18px;
+}
